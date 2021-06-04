@@ -142,6 +142,8 @@ nav{
     list-style: none;
  
 }
+#active{text-decoration: underline solid 2px ;
+text-underline-offset: 1px;}
 
     .nav-link1{
         color: black;
