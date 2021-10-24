@@ -399,16 +399,19 @@ display: flex;}
 
 
     h1{font-size: 30px;
-    min-height: none;}
+    min-height: none;
+line-height: 1.7em;}
     h2{margin: 10px 0px;
      font-size: 24px;
+     line-height: 1.5em;
     }
     h3{
         margin: 10px 0px 0px 0px;
     line-height: 1.5em;
 font-size: 18px;}
     .ken{grid-area: ken;
-    margin:  0px;}
+    margin:  0px;
+}
     .boxA{grid-area: boxA;
         width: 500px;
         max-width: 90%;
