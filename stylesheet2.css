@@ -2,7 +2,7 @@
     margin: 0;
     padding:0;
 }
-body{line-height: 1.5em;
+body{line-height: 1.8em;
 font-family: Arial, Helvetica, sans-serif;
 background:#292929;}
 
@@ -22,7 +22,7 @@ background:#292929;}
     top:0;
     width:100%;
     height:auto;
-    margin:0;   
+    margin:0;
     padding:10px 0;
     background:#fff;
     border:1px solid blue;
@@ -33,6 +33,7 @@ background:#292929;}
     color:#000;
     z-index: 1;
   }
+
 
 .container{
     display:grid;
@@ -161,7 +162,6 @@ nav{
     background-color: black;
 }
 
-
 .nav-list1{display: flex;}
 .nav-item1{margin: 0px 10px 0px 0px;
     list-style: none;
@@ -235,53 +235,54 @@ place-items: center;
 }
 
 main{color: white;
-    display: grid;
-    grid-template-columns:1fr ;
-    grid-template-rows:0.1fr 1fr;
-    grid-template-areas: "h1" "box1" ;
-    /* min-height: 824px; */
-    
-}
-h1{grid-area: h1;
+display:grid;
+
+grid-template-columns:1fr ;
+    grid-template-rows:1fr 4fr 4fr;
+    grid-template-areas: "h1" "sec1" "sec2" ;}
+/* h1{
     display: flex;
     justify-self: center;
-    align-self: center;
+    margin: 0 auto;
+ 
     /* margin: 0; */
-
-
-    }
-.box1{display:flex;
-    margin: 0;
-    grid-area: box1;
-    
-align-items: center;
-justify-content: space-evenly;
-height: 100%;
-margin-top: -5px;
-/* min-height: 749px; */
-
-}
-.boxA{
-    width: 600px;
-    max-width: 90%;
-    margin-top: -10px;
-   
-}
-
-
-h2{font-size: 40px;
-    margin-bottom: 20px;}
-h3{font-size:30px;
-    line-height: 1.5em;}
-    
-    p{font-size: 20px;
-        /* margin: 10px 0px; */
-       
-        line-height: 1.5em;
+    h1{
         display: flex;
     justify-self: center;
     align-self: center;
+    line-height: 1.7em;
     }
+
+.sec1{
+    grid-area: sec1;
+  margin-left: 38%;
+  margin-top: 3%;
+    
+    /* margin-right: auto; */
+
+}
+.sec2{
+    grid-area: sec2;
+    margin-left: 38%;
+    margin-top: 3%;
+}
+
+.sec1 h1{font-size: 30px;
+    }
+      .sec2 h1{font-size: 30px;}
+
+.aa{margin-top:1%;
+    font-size: 18px;}
+
+    .ab{color: yellow;
+    text-decoration: none;}
+    .ab:hover{background-color: black;
+        color:white;
+    outline: yellow solid 1px;}
+    .ab:focus{background-color: black;
+        color:white;
+        outline: yellow solid 1px;}
+
 
 footer{
     grid-area:footer;
@@ -343,29 +344,7 @@ display: flex;}
     grid-template-columns:1fr ;
         grid-template-rows:0.1fr 1.5fr 0.1fr;
         grid-template-areas: "nav" "main" "footer" ;}
-        .box1{display:grid;
-            margin-top: 10px;
-            grid-template-columns:1fr ;
-        grid-template-rows:1fr 0.2fr;
-        grid-template-areas: "ken" "boxA" ;
-        place-items: center;
-        margin-bottom: -50px;
-          
-    }
-    h2{margin: 30px 0px;
-     
-    }
-    h3{
-        margin: 10px 0px 0px 0px;
-    line-height: 1.5em;}
-    .ken{grid-area: ken;
-    margin: 10px 0px;
-}
-    .boxA{grid-area: boxA;
-        max-width: 90%;
-        text-align: center;
-       
-    }
+        
    
 .nav-list1{display: none;}
 
@@ -375,6 +354,12 @@ display: flex;}
     display:flex;
    
    
+}
+
+.sec1{
+  margin-left: 28%;
+}
+.sec2{margin-left: 28%;
 }
 }
 
@@ -387,33 +372,16 @@ display: flex;}
     grid-template-columns:1fr ;
         grid-template-rows:0.1fr 1.5fr 0.1fr;
         grid-template-areas: "nav" "main" "footer" ;}
-        .box1{display:grid;
-            margin-top: 0px;
-            grid-template-columns:1fr ;
-        grid-template-rows:1fr 0.2fr;
-        grid-template-areas: "ken" "boxA" ;
-        place-items: center;
-        margin-bottom:-50px;
-          
-    }
-
-
-    h1{font-size: 30px;
-    min-height: none;}
-    h2{margin: 10px 0px;
-     font-size: 24px;
-    }
-    h3{
-        margin: 10px 0px 0px 0px;
-    line-height: 1.5em;
-font-size: 18px;}
-    .ken{grid-area: ken;
-    margin:  0px;}
-    .boxA{grid-area: boxA;
-        width: 500px;
-        max-width: 90%;
-    }
+        
+    
     span{font-size: 16px;}
+    .sec1{
+        margin-left: 15%;}
+      .sec2{margin-left: 15%;
+      }
+
+      .sec1 h1{font-size: 22px;}
+      .sec2 h1{font-size: 22px;}
 
     p{
         font-size: 16px;
