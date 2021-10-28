@@ -31,7 +31,7 @@ background:#292929;}
     text-align:center;
     font-weight:bold;
     color:#000;
-    z-index: 1;
+    z-index: 15;
   }
 
 .container{
@@ -413,8 +413,8 @@ font-size: 18px;}
     margin:  0px;
 }
     .boxA{grid-area: boxA;
-        width: 500px;
-        max-width: 90%;
+        width: 90%;
+        
     }
     span{font-size: 16px;}
 
@@ -429,6 +429,7 @@ font-size: 18px;}
             font-weight: bold;
             
             }
-            .ken{width:400px}
+            .ken{width:300px;
+            height: 400px;}
             
 }
