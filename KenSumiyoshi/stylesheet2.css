@@ -373,7 +373,7 @@ line-height: 1.5em;}
         height: 100vh;
     
     grid-template-columns:1fr ;
-        grid-template-rows:0.1fr 1fr 0.1fr;
+        grid-template-rows:0.1fr 0.9fr 0.1fr;
         grid-template-areas: "nav" "main" "footer" ;}
         
     
